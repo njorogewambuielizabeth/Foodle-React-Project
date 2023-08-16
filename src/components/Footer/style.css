@@ -1,0 +1,57 @@
+h2,h1{
+    color: red;
+}
+.footer-content{
+    display: flex;
+    gap: 10%;
+}
+.footer{
+    background-color: rgb(230, 151, 177);
+}
+.icons{
+    display: flex;
+    gap: 10%;
+}
+/* Default styling for the footer */
+.footer-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .first {
+    flex: 1;
+    max-width: 300px;
+  }
+  
+  .men,
+  .information,
+  .contact {
+    flex: 1;
+    max-width: 200px;
+  }
+  
+  .icons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Media query for screens with max width of 768px */
+  @media (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+    }
+  
+    .first {
+      margin-bottom: 20px;
+    }
+  
+    .men,
+    .information,
+    .contact {
+      max-width: none;
+      margin-bottom: 20px;
+    }
+  }
+  
